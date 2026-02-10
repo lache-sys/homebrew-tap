@@ -1,6 +1,6 @@
 cask "ps3-disc-dumper" do
-  version "4.4.0"
-  sha256 "3e6fabd3fe4195162bb1485b093c9b1f310ab14dd2c8208ffb1cf5a59f4dbbf5"
+  version "4.4.1"
+  sha256 "36b468196dc839e9c8bf2aac7d6b1ee97cecedad750031c6020cdaa925e90ebb"
 
   url "https://github.com/13xforever/ps3-disc-dumper/releases/download/v#{version}/ps3-disc-dumper_macos_v#{version}.zip"
   name "PS3 Disc Dumper"
