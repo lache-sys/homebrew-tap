@@ -1,1 +1,2 @@
-# homebred-tap
+# homebrew-tap
+## Casks
