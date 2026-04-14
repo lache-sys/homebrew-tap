@@ -5,6 +5,8 @@ class Mdxplay < formula
   sha256 "84033159108eaabf532aa8ecb798c3332d630f8cea862e485d43638ec6ee2191"
   license "gpl-2.0-only"
 
+  depends_on "cmake" => :build
+
   def install
     system "./configure", "--disable-silent-rules", *std_configure_args
     system "make"
