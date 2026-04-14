@@ -8,7 +8,7 @@ class Mdxplay < formula
   def install
     system "./configure", "--disable-silent-rules", *std_configure_args
     system "make"
-    system "make install"
+    system "make", "install"
   end
 
   test do
