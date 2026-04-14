@@ -1,4 +1,4 @@
-class Mdxplay < formula
+class Mdxplay < Formula
   desc "MDX music data player"
   homepage "https://web.archive.org/web/20130217181839/http://homepage3.nifty.com/studiobreeze/software/mdxplay-e.html"
   url "https://web.archive.org/web/20130217181839/http://homepage3.nifty.com/studiobreeze/software/bin/mdxplay-20070206.tar.gz"
