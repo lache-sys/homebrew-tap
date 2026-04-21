@@ -11,8 +11,8 @@ cask "cluster" do
 
   pkg "cluster.pkg"
 
-  uninstall pkgutil: "mu.cluster.*"
-            quit: "mu.cluster"
+  uninstall pkgutil: "mu.cluster.*",
+            quit: "mu.cluster",
             on_upgrade: :quit
   zap trash: [
     "/private/var/db/receipts/mu.cluster.bom",
