@@ -14,10 +14,10 @@ cask "cluster" do
   uninstall pkgutil: "mu.cluster.*",
             quit: "mu.cluster",
             on_upgrade: :quit
+
   zap trash: [
     "/private/var/db/receipts/mu.cluster.bom",
     "/private/var/db/receipts/mu.cluster.plist",
-    "~/Library/Application Support/CrashReporter/cluster_*.plist"
     "~/Library/Application Support/mu.cluster",
     "~/Library/Caches/mu.cluster",
     "~/Library/Preferences/mu.cluster.plist",
