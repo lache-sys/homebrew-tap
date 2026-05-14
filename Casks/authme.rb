@@ -1,6 +1,6 @@
 cask "authme" do
-  version "7.0.0"
-  sha256 "b29b50d006ff22843093a5806acea37363459f288c806d96cf8ab44aa560b7c8"
+  version "7.1.0"
+  sha256 "e13e439683d7f60afab5a6d633e19899630ee3e9399762f495c71076af4e0047"
 
   url "https://github.com/Levminer/authme/releases/download/#{version}/authme-#{version}-macos-universal.dmg"
   name "Authme"
