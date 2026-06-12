@@ -1,4 +1,4 @@
-cask "grandorgue" do
+cask "palette-studio" do
   arch arm: "arm64", intel: "x64"
 
   version "3.0.1"
