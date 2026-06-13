@@ -16,7 +16,7 @@ cask "roland-cloud-manager" do
   desc "VST Instruments and Software Manager"
   homepage "https://rolandcloud.com/Catalog/Essentials/Roland-Cloud-Manager"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   container type: :dmg
 
   installer manual: "Roland Cloud Manager Installer.app"
