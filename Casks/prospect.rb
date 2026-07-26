@@ -2,7 +2,7 @@ cask "prospect" do
   version "1.2.1"
   sha256 "6b66d201ed490d5eeedf1d65167cf84cdc2cab93669c97975b9a1ab294ebc9e0"
 
-  url "https://jaromvogel.com/prospect/Prospect_v#{version.sub("\.", "_")}.zip"
+  url "https://jaromvogel.com/prospect/Prospect_v#{version.dots_to_underscores}.zip"
   name "Prospect"
   desc "Procreate Viewer"
   homepage "https://jaromvogel.com/prospectapp"
