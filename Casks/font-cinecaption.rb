@@ -6,5 +6,5 @@ cask "font-cinecaption" do
   name "Cinecaption"
   homepage "https://web.archive.org/web/20160529000353fw_/http://chiphead.jp/font/htm/cinecaption.htm"
 
-  font "cinecaption2.28.ttf"
+  font "cinecaption2.28/cinecaption2.28.ttf"
 end
