@@ -9,6 +9,6 @@ cask "magical-fds-plug" do
 
   container type: :zip
 
-  audio_unit_plugin "MagicalFDSPlug2.component"
-  vst3_plugin "MagicalFDSPlug2.vst3"
+  audio_unit_plugin "MagicalFDSPlug.component"
+  vst3_plugin "MagicalFDSPlug.vst3"
 end
