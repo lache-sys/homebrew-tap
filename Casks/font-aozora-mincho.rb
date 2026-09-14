@@ -1,5 +1,5 @@
 cask "font-aozora-mincho" do
-  version "v0.1"
+  version "0.1"
   sha256 "343b19f2b5425b2ea080932326875cbd887ab106212ddce246f184672f8d4c17"
 
   url "https://web.archive.org/web/20200321102301/http://blueskis.wktk.so/AozoraMincho/archive/v#{version}/aozoramincho-readme-ttf.zip"
