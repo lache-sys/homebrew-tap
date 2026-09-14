@@ -1,4 +1,4 @@
-cask "font-ms-gothic" do
+cask "font-ms-mincho" do
   version :latest
   sha256 :no_check
 
