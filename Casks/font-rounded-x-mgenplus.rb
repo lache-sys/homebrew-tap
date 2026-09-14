@@ -76,5 +76,5 @@ cask "font-rounded-x-mgenplus" do
   font "rounded-x-mgenplus-2pp-light.ttf"
   font "rounded-x-mgenplus-2pp-medium.ttf"
   font "rounded-x-mgenplus-2pp-regular.ttf"
-  font "rounded-x-mgenplus-2pp-thin.ttf
+  font "rounded-x-mgenplus-2pp-thin.ttf"
 end
