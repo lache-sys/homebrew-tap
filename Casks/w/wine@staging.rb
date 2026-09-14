@@ -1,12 +1,11 @@
 cask "wine@staging" do
-  version "11.2"
-  sha256 "73404ea39ebc078aaddf769543f134d70c56a1167336e363308a5e315fb55816"
+  version "11.16"
+  sha256 "cd68f230c773a761b8a0423a08c51fbe49e89b6e52246f3866898d259a4988c6"
 
   # Current winehq packages are deprecated and these are packages from
   # the new maintainers that will eventually be pushed to Winehq.
   # See https://www.winehq.org/pipermail/wine-devel/2021-July/191504.html
-  url "https://github.com/Gcenx/macOS_Wine_builds/releases/download/#{version.major_minor}/wine-staging-#{version}-osx64.tar.xz",
-      verified: "github.com/Gcenx/macOS_Wine_builds/"
+  url "https://github.com/Gcenx/macOS_Wine_builds/releases/download/#{version.major_minor}/wine-staging-#{version}-osx64.tar.xz"
   name "WineHQ-staging"
   desc "Compatibility layer to run Windows applications"
   homepage "https://wiki.winehq.org/MacOS"
@@ -32,10 +31,11 @@ cask "wine@staging" do
   end
 
   conflicts_with cask: [
-    "lache-sys/tap/wine-stable",
-    "lache-sys/tap/wine@devel",
+    "wine-stable",
+    "wine@devel",
   ]
-  depends_on cask: "lache-sys/tap/gstreamer-runtime"
+  depends_on cask: "gstreamer-runtime"
+  depends_on :macos
 
   app "Wine Staging.app"
   dir_path = "#{appdir}/Wine Staging.app/Contents/Resources"
