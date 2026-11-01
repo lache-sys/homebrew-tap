@@ -1,6 +1,6 @@
 cask "ntsc-rs" do
-  version "0.9.4"
-  sha256 "fd135bea590f26a5ab485daa42ac80e0158fbf5c07b2d4474498c3f28f30ff07"
+  version "0.9.7"
+  sha256 "51ca362a9ce8b40cb47804959cbbdc5bb71e79c0f334542dd85fa27faa04c1e0"
 
   url "https://github.com/ntsc-rs/ntsc-rs/releases/download/v#{version}/ntsc-rs-macos-standalone.pkg"
   name "ntsc-rs"
