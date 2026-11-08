@@ -11,7 +11,4 @@ cask "8bitdo-ps3-pairing-tool" do
 
   app "8BitDo Retro Receiver Tools_For_PS3_Controller.app"
 
-  caveats do
-    requires_rosetta
-  end
 end
