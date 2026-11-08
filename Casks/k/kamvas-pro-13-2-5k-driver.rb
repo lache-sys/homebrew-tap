@@ -1,6 +1,6 @@
 cask "kamvas-pro-13-2-5k-driver" do
   version "15.7.40"
-  sha256 "121c78d1b6bc53be764f82265512b64a169ec03dc635e934e3c09917c456e040"
+  sha256 "06fb172fb3c83cd269d14083e9f62440294157a0cbb0e842ab506f31c9c525ac"
 
   url "https://driverdl.huion.com/driver/Mac/HuionTablet_MacDriver_#{version}.dmg"
   name "HuionTablet"
