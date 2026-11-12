@@ -2,7 +2,7 @@ cask "rusty-backup" do
   arch arm: "arm64", intel: "x64"
 
   version "2026-11-11-23-10"
-  sha256 arm:   "be52b4fe5690673637d78ae9406b5831739f1038b57c0ca767840dd8da62dde6",
+  sha256 arm:   "f4f8a5955c363cb52f2be2a696cd9c90a9caf1590afe9d8d3ef800952718bef4",
          intel: "81554587bfbacd52987664159d06a1ec68acc32a3824bb7a9d772b834e5bad29"
 
   url "https://github.com/danifunker/rusty-backup/releases/download/v#{version}/Rusty-Backup-macos-#{arch}-#{version}.dmg"
